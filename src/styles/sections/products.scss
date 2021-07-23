@@ -1,0 +1,95 @@
+.products {
+  &__title {
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  &__subtitle {
+    font-family: $font-secondary;
+    text-align: center;
+    opacity: 0.6;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 150px;
+    margin-top: 25px;
+    margin-bottom: 140px;
+  }
+
+  &__box-btn {
+    text-align: center;
+    margin-bottom: 130px;
+  }
+  &__view-btn {
+    font-family: $font-secondary;
+    color: #e27b3a;
+    text-align: center;
+    padding: 12px 30px;
+    border: 1px solid #e27a3a2f;
+    border-radius: 4px;
+    background: white;
+    transition: 0.5s;
+    &:hover {
+      background-color: #e27b3a;
+      color: white;
+    }
+  }
+
+  &__card {
+    background-color: #fcf2eb;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+
+    &-box {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    &-pic {
+      mix-blend-mode: darken;
+      transition: 0.5s all;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    &-title {
+      font-family: $font-primary;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 37.5px;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 9px;
+    }
+
+    &-link {
+      color: #e27b3a;
+      font-family: $font-secondary;
+      line-height: 19px;
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
+
+  &__card_large {
+    grid-column: span 3;
+    height: 420px;
+  }
+  &__card_small {
+    grid-column: span 2;
+    height: 273px;
+  }
+}

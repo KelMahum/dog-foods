@@ -1,0 +1,129 @@
+.adoption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 116px;
+
+  &__picture {
+    margin-left: -10%;
+  }
+  &__main-title {
+    font-family: $font-secondary;
+    font-weight: 500;
+    line-height: 19px;
+    color: #e27b3a;
+    letter-spacing: 0.2em;
+    margin-bottom: 4px;
+  }
+
+  &__title {
+    font-family: $font-primary;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 18px;
+  }
+
+  &__subtitle {
+    font-family: $font-secondary;
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+
+  &__btn {
+    font-family: $font-secondary;
+    color: #e27b3a;
+    background-color: white;
+    border-radius: 24px;
+    padding: 12px 30px;
+    border: 1px solid #e27b3a;
+    margin-right: 30px;
+    transition: 0.5s all;
+    &:last-child {
+      margin-right: 0;
+    }
+    &_active {
+      background-color: #e27b3a;
+      color: white;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+    &:hover {
+      background-color: #e27b3a;
+      color: white;
+    }
+  }
+}
+
+.subscription {
+  &__title {
+    font-family: $font-primary;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-bottom: 36px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+  }
+
+  &__card {
+    flex-basis: 30%;
+    &-pic {
+      margin-bottom: 51px;
+    }
+    &-title {
+      font-family: $font-primary;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    &-subtitle {
+      font-family: $font-secondary;
+      line-height: 19px;
+      text-align: center;
+      margin-bottom: 15px;
+      opacity: 0.6;
+    }
+    &-details {
+      font-family: $font-secondary;
+      line-height: 19px;
+      text-align: center;
+      color: #e27b3a;
+      transition: 0.2s;
+      &:hover {
+        opacity: 0.65;
+      }
+    }
+    &-box {
+      text-align: center;
+    }
+  }
+
+  &__box {
+    text-align: center;
+  }
+
+  &__btn {
+    font-family: $font-secondary;
+    background: #e27b3a;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 24px;
+    margin-bottom: 130px;
+    transition: 0.5s all;
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}

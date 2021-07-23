@@ -1,0 +1,72 @@
+.footer {
+  background: #140a03;
+  height: 363px;
+  clip-path: polygon(50% 0, 74% 17%, 100% 17%, 100% 100%, 100% 100%, 48% 100%, 0 100%, 0 19%, 27% 19%);
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+
+  &__links {
+    padding-top: 100px;
+  }
+  &__link {
+    padding-bottom: 37px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-item {
+      font-family: $font-secondary;
+      line-height: 19px;
+      color: white;
+      opacity: 0.8;
+      transition: 0.2s all;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  &__mail {
+    font-family: $font-secondary;
+    line-height: 19px;
+    color: #e27b3a;
+    transition: 0.2s all;
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &-info {
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-right: 11%;
+    margin-top: 60px;
+    &__logo {
+      margin-bottom: 12px;
+    }
+    &__title {
+      font-family: $font-secondary;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 30px;
+      color: white;
+      text-align: center;
+      margin-bottom: 66px;
+    }
+
+    &__widget {
+      margin-right: 25px;
+      transition: 0.4s all;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

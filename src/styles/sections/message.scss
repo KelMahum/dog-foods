@@ -1,0 +1,59 @@
+.message {
+  margin-bottom: 70px;
+  &__card {
+    height: 346px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../assets/images/message-background.png") center no-repeat;
+  }
+  &-info {
+    &__title {
+      font-family: $font-primary;
+      font-size: 31px;
+      font-weight: 500;
+      line-height: 41px;
+      color: white;
+      padding-bottom: 18px;
+    }
+    &__subtitle {
+      font-family: $font-secondary;
+      color: white;
+      opacity: 0.7;
+    }
+  }
+  &-form {
+    position: relative;
+    &__field {
+      font-family: $font-secondary;
+      border-radius: 10px;
+      width: 487px;
+      background-color: white;
+      padding: 25px;
+
+      &::placeholder {
+        font-family: $font-secondary;
+        line-height: 41px;
+        opacity: 0.6;
+      }
+    }
+    &__send {
+      font-family: $font-secondary;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 41px;
+      text-align: center;
+      padding: 17px 37px;
+      background: #e27b3a;
+      border-radius: 0px 10px 10px 0px;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transition: 0.3s all;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+}

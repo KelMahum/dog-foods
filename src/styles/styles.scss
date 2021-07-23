@@ -1,0 +1,18 @@
+// Fonts - Roboto 400, 500 &  Poppins 400, 500, 700
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
+
+// Null-styles & variables
+@import "./reset.scss";
+@import "./variables.scss";
+
+// Header & Footer
+@import "./sections/header.scss";
+@import "./sections/bottom.scss";
+
+// Sections
+@import "./sections/intro.scss";
+@import "./sections/products.scss";
+@import "./sections/adoption.scss";
+@import "./sections/gallery.scss";
+@import "./sections/testimonial.scss";
+@import "./sections/message.scss";
