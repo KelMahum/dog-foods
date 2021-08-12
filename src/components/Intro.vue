@@ -1,16 +1,21 @@
 <template>
   <div>
-    <div class="background">
-      <div class="background__dog">
-        <img src="../assets/images/dog.jpg" aria-hidden="true" alt="" />
+    <div class="intro-background">
+      <div class="intro-background__dog">
+        <img
+          src="../assets/images/dog_2.jpg"
+          aria-hidden="true"
+          alt=""
+          class="intro-background__dog-pic"
+        />
       </div>
-      <div class="background__polygon">
+      <div class="intro-background__polygon">
         <img src="../assets/images/rectangle.jpg" aria-hidden="true" alt="" />
       </div>
     </div>
     <div class="wrapper">
       <section class="intro">
-        <h1 class="intro__title">Dog is my Copilot</h1>
+        <h1 class="intro__title">Dog is my <br />Copilot</h1>
         <button class="intro__btn intro__btn_active">Buy Now</button>
         <button class="intro__btn">See Details</button>
       </section>

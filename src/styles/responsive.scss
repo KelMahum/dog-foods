@@ -1,0 +1,227 @@
+@media screen and (max-width: 1400px) {
+  .intro-background {
+    &__dog {
+      position: absolute;
+      top: 82px;
+      right: 40px;
+      z-index: 1;
+      mix-blend-mode: darken;
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .full-wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .adoption {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 20px 150px 20px;
+    &__picture {
+      display: none;
+    }
+  }
+  .subscription {
+    &__card {
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .message {
+    &-form {
+      margin-top: -50px;
+    }
+  }
+  .footer__contact {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    margin-bottom: 100px;
+    &-widgets {
+      &__burger {
+        display: inline-block;
+      }
+    }
+    &-nav {
+      background-color: #373a47;
+      background: url("../assets/images/burger-background-3.jpg");
+      opacity: 0.95;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      transform: translateX(100%);
+      transition: all 0.5s;
+      padding-top: 50px;
+
+      &__link {
+        color: white;
+        display: block;
+        font-size: 35px;
+        padding: 40px;
+      }
+      &_active {
+        transform: translateX(60%);
+      }
+    }
+  }
+  .intro-background {
+    display: none;
+  }
+  .intro__btn {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 140px;
+    }
+  }
+  .quality {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 70px;
+  }
+  .products {
+    &__view-btn {
+      margin-top: 15px;
+    }
+    &__cards {
+      grid-row-gap: 180px;
+    }
+    &__card-pic {
+      max-width: 100%;
+    }
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    &-small {
+      grid-column: span 2;
+    }
+    &-large {
+      display: none;
+    }
+  }
+  .testimonial__arrows {
+    right: 5px;
+    z-index: 20;
+  }
+  .message {
+    &__background {
+      background: none;
+    }
+    &-info {
+      &__title {
+        color: #170c04;
+      }
+      &__subtitle {
+        color: #170c04;
+        opacity: 0.6;
+      }
+    }
+    &-form {
+      &__field {
+        border: 1px solid #170c04;
+      }
+      &__send {
+        padding: 17.1px 37px;
+      }
+    }
+  }
+  .footer {
+    height: 400px;
+    &__link-item {
+      font-size: 14px;
+    }
+    &-info {
+      margin-top: 15px;
+      &__title {
+        font-size: 16px;
+      }
+      &__widgets {
+        margin-top: 10.5em;
+      }
+    }
+    &__mail {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .intro-background {
+    &__dog {
+      &-pic {
+        display: none;
+      }
+    }
+  }
+  .intro__title {
+    font-size: 70px;
+  }
+  .products {
+    &__cards {
+      grid-row-gap: 150px;
+    }
+    &__card_large {
+      grid-column: span 6;
+    }
+    &__card_small {
+      grid-column: span 6;
+    }
+  }
+  .subscription {
+    &__card {
+      margin-right: 0;
+    }
+  }
+  .adoption__btn:last-child {
+    margin-top: 20px;
+  }
+  .message {
+    &-form {
+      &__field {
+        padding: 18px;
+      }
+      &__send {
+        padding: 10.7px 37px;
+      }
+    }
+    &-info {
+      &__title {
+        font-size: 28px;
+      }
+      &__subtitle {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .header-nav_active {
+    transform: translateX(40%);
+  }
+  .products__view-btn {
+    margin-top: -10px;
+  }
+  .subscription__card {
+    margin-bottom: 50px;
+  }
+  .gallery {
+    margin-bottom: 160px;
+  }
+  .testimonial__title {
+    margin-bottom: 30px;
+  }
+}

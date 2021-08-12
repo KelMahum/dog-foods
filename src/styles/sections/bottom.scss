@@ -3,12 +3,12 @@
   height: 363px;
   clip-path: polygon(50% 0, 74% 17%, 100% 17%, 100% 100%, 100% 100%, 48% 100%, 0 100%, 0 19%, 27% 19%);
   display: flex;
-  justify-content: space-around;
   flex-flow: row wrap;
+  justify-content: space-evenly;
   align-items: center;
-
   &__links {
-    padding-top: 100px;
+    flex: 0 1 33%;
+    padding-top: 120px;
   }
   &__link {
     padding-bottom: 37px;
@@ -38,12 +38,12 @@
   }
 
   &-info {
+    position: absolute;
     align-self: flex-start;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-right: 11%;
     margin-top: 60px;
     &__logo {
       margin-bottom: 12px;

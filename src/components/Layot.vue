@@ -1,14 +1,16 @@
 <template>
-  <div class="full-wrapper">
-    <dog-header></dog-header>
-    <main>
-      <dog-intro></dog-intro>
-      <popular-products></popular-products>
-      <dog-adoption></dog-adoption>
-      <gallery-products></gallery-products>
-      <testimonial></testimonial>
-      <message></message>
-    </main>
+  <div>
+    <div class="full-wrapper">
+      <dog-header></dog-header>
+      <main>
+        <dog-intro></dog-intro>
+        <popular-products></popular-products>
+        <dog-adoption></dog-adoption>
+        <gallery-products></gallery-products>
+        <testimonial></testimonial>
+        <message></message>
+      </main>
+    </div>
     <bottom-menu></bottom-menu>
   </div>
 </template>

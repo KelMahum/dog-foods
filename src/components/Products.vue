@@ -75,10 +75,13 @@
             <a href="#" class="products__card-link">View Details</a>
           </div>
         </div>
+        <div class="products__box-btn">
+          <button class="products__view-btn">View All Products</button>
+        </div>
       </div>
-      <div class="products__box-btn">
+      <!-- <div class="products__box-btn">
         <button class="products__view-btn">View All Products</button>
-      </div>
+      </div> -->
     </section>
   </div>
 </template>

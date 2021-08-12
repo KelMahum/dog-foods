@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <ul class="footer__links">
+    <ul class="footer__links footer__links_indent">
       <li class="footer__link">
         <a href="#" class="footer__link-item"> Product & Policy </a>
       </li>
@@ -9,7 +9,8 @@
       </li>
       <li class="footer__link">
         <a href="mailto:alaminhossen.75bd@gmail.com" class="footer__link-item">
-          Contact: <span class="footer__mail">alaminhossen.75bd@gmail.com</span>
+          <span class="footer__contact" style="color: white">Contact: </span>
+          <span class="footer__mail">alaminhossen.75bd@gmail.com</span>
         </a>
       </li>
     </ul>

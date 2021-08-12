@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="message">
+      <div class="message__background"></div>
       <div class="message__card">
         <div class="message-info">
           <h2 class="message-info__title">
